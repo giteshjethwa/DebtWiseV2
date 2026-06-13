@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "DebtWise — Take control of your debt" },
+      { name: "description", content: "DebtWise Pro is a web application for managing loans, tracking EMIs, and planning debt repayment." },
+      { property: "og:description", content: "DebtWise Pro is a web application for managing loans, tracking EMIs, and planning debt repayment." },
+      { name: "twitter:description", content: "DebtWise Pro is a web application for managing loans, tracking EMIs, and planning debt repayment." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7bd710d0-3e4d-45e7-918f-929b456afebb/id-preview-9c7ca633--b189a12c-d972-42f2-924e-c33c9c33ab12.lovable.app-1781276587055.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7bd710d0-3e4d-45e7-918f-929b456afebb/id-preview-9c7ca633--b189a12c-d972-42f2-924e-c33c9c33ab12.lovable.app-1781276587055.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
